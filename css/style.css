@@ -357,4 +357,34 @@ body{
     font-size:14px;
 }section{
     scroll-margin-top: 100px;
+} .contact{
+    padding:100px 8%;
+    text-align:center;
+}
+
+.contact h2{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.contact p{
+    max-width:700px;
+    margin:0 auto 30px;
+    color:#ccc;
+    line-height:1.8;
+}.footer{
+    text-align:center;
+    padding:50px 8%;
+    background:#0d0d0d;
+    border-top:1px solid #222;
+}
+
+.footer h3{
+    color:#FF6B00;
+    margin-bottom:15px;
+}
+
+.footer p{
+    color:#999;
+    margin:10px 0;
 }
