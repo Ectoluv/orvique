@@ -13,11 +13,16 @@ body{
     font-family:Arial,sans-serif;
 }
 
-.navbar{
+ .navbar{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:25px 8%;
+    padding:20px 8%;
+    position:sticky;
+    top:0;
+    background:#111111;
+    z-index:1000;
+    border-bottom:1px solid #222;
 }
 
 .logo{
@@ -36,7 +41,13 @@ body{
     text-decoration:none;
     color:white;
 }
+.nav-links a{
+    transition:0.3s;
+}
 
+.nav-links a:hover{
+    color:#FF6B00;
+}
 .cta-btn{
     background:#FF6B00;
     color:white;
@@ -387,4 +398,25 @@ body{
 .footer p{
     color:#999;
     margin:10px 0;
+}.whatsapp-btn{
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    width:60px;
+    height:60px;
+    background:#25D366;
+    color:white;
+    font-size:30px;
+    text-decoration:none;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    box-shadow:0 5px 20px rgba(0,0,0,0.3);
+    z-index:999;
+    transition:0.3s;
+}
+
+.whatsapp-btn:hover{
+    transform:scale(1.1);
 }
